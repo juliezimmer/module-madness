@@ -10,6 +10,6 @@ function toUSD(number) {
         .split('').reverse().join('');
     return '$' + dollars + '.' + cents.slice(0, 2);
 }
-console.log(toUSD(random(100, 1000000)));
+
 
 module.exports = toUSD;
